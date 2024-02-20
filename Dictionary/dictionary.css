@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: linear-gradient(to right top, #a8ad4d, #a1ad45, #99ad3d, #90ad35, #86ad2d) !important;
+}
