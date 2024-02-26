@@ -1,9 +1,32 @@
+
+
 *{
     padding: 0;
     margin:0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{
-    background-image: linear-gradient(to right top, #a8ad4d, #a1ad45, #99ad3d, #90ad35, #86ad2d) !important;
+    background-image: linear-gradient(145deg, #eed9c4, #e4d5b7, #d9b99b);
+    height: 100vh;
+}
+
+#dictionary-main{
+    background-color: #dbba9b !important;
+    border-radius: 5px;
+    position: fixed;
+    top: 10vh;
+    left: 60vw;
+    width: 30% !important;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+input::placeholder{
+    padding-left: 4px !important;
+    color: hotpink;
+}
+
+button{
+    border:none;    
+    background: none;
 }
