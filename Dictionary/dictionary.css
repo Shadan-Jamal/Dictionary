@@ -17,11 +17,11 @@ body{
     height: 100vh;
 }
 
-h3{
+h3,h4,p,i{
     font-weight:bolder;
     font-size: 30px;
     letter-spacing: 1.5px;
-    background: -webkit-linear-gradient(90deg, #603158, #b12c7ad9, #941c80);
+    background: -webkit-linear-gradient(90deg, #c560b4, #e50d8bd9, #ff0ad6);
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,18 +51,18 @@ h3{
     border-radius: 30px;
     width: 30% !important;
     background-color: pink;
-    transition: 300ms ease-in-out;
+    transition: 250ms ease-in-out;
     transition-property: transform, box-shadow;
 }
 
 #dictionary-main:hover{
     transform:scale(1.02);
-    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0,0.9);
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0,0.9);
 }
 
 input{
     background-color:transparent;
-    font-size: 1.4em; 
+    font-size: 1.1em; 
     color: #333033;
     font-weight: 600;;
     border:none;
@@ -92,7 +92,7 @@ input:focus::placeholder{
 button{
     border:none;    
     background: none;
-    font-size:  1.5em;
+    font-size:  1.2em;
     border-radius:  10px;
     transition: background-color 100ms linear;
 }
@@ -107,7 +107,7 @@ button:hover{
     border-bottom: 3px solid rgba(206, 78, 195, 0.941);
 }
 
-#content-bar p{
+#content-bar p{  
     border-left: 3px solid rgba(206, 78, 195, 0.941);
 }
 
@@ -115,4 +115,8 @@ button:hover{
 .bi-volume-up-fill{
     cursor: pointer;
     font-size: 20px;
+}
+
+p{
+    color: #fb9f9f;
 }
